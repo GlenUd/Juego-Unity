@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61312b6cbbd1e8141a19687352d626dd, type: 3}
+  m_Name: Sword_Test
+  m_EditorClassIdentifier: Assembly-CSharp::AKIXA.Weapons.WeaponDefinition
+  weaponId: sword_test_001
+  displayName: Espada de Prueba
+  weaponType: 1
+  damage: 20
+  attackSpeed: 1
+  staminaCost: 10
+  range: 1.5
+  attackDuration: 0.55
+  hitboxStartTime: 0.12
+  hitboxDuration: 0.18
+  weaponPrefab: {fileID: 2414606701141694179, guid: 28ddd7a27fe1fe247936f29e81a14d64, type: 3}
+  lightAttackCombo:
+  - {fileID: 11400000, guid: 09dc529abff7dac4599e9efb75d0e69c, type: 2}
+  - {fileID: 11400000, guid: b9a269a542889b04ea4010f90ed54056, type: 2}
+  - {fileID: 11400000, guid: 622b910e68a33f644b40ca8a4d73a63f, type: 2}
